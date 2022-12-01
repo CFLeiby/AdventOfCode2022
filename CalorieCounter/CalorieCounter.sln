@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalorieCounter", "CalorieCounter\CalorieCounter.csproj", "{1F56F570-7122-40AB-B502-2C1D4D3DEDCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F56F570-7122-40AB-B502-2C1D4D3DEDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F56F570-7122-40AB-B502-2C1D4D3DEDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F56F570-7122-40AB-B502-2C1D4D3DEDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F56F570-7122-40AB-B502-2C1D4D3DEDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC25DC22-CA05-4E52-A9A0-F26CF6183150}
+	EndGlobalSection
+EndGlobal
