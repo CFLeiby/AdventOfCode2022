@@ -2,9 +2,22 @@
 
 internal class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        TopThree();
+        int topN = 0;
+        if (args?.Length > 0)
+        {
+            _ = int.TryParse(args[0], out topN);
+        }
+
+        if (topN < 2)
+        {
+            JustMax();
+        }
+        else
+        {
+            TopN(topN);
+        }
     }
 
     private static void JustMax()
@@ -28,7 +41,7 @@ internal class Program
         Console.WriteLine("Elf " + elf + " is carrying " + maxCalories + " calories.");
     }
 
-    private static void TopThree()
+    private static void TopN(int n)
     {
         var perElfCounts = new List<long>();
         long currentCalories = 0;
@@ -44,8 +57,11 @@ internal class Program
             currentCalories += long.Parse(calorieItem);
         }
 
+        //Don't try and return more than we have
+        n = Math.Min(n, perElfCounts.Count);
+
         perElfCounts.Sort();
         perElfCounts.Reverse();
-        Console.WriteLine("Top 3 elves are carrying " + perElfCounts.Take(3).Sum() + " calories.");
+        Console.WriteLine("Top 3 elves are carrying " + perElfCounts.Take(n).Sum() + " calories.");
     }
 }

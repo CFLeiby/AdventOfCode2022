@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter\\CalorieCounter.csproj": {}
+    "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter.csproj": {}
   },
   "projects": {
-    "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter\\CalorieCounter.csproj": {
+    "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter\\CalorieCounter.csproj",
+        "projectUniqueName": "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter.csproj",
         "projectName": "CalorieCounter",
-        "projectPath": "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter\\CalorieCounter.csproj",
+        "projectPath": "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter.csproj",
         "packagesPath": "C:\\Users\\chick\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\AdventOfCode\\CalorieCounter\\CalorieCounter\\obj\\",
+        "outputPath": "C:\\Source\\AdventOfCode\\CalorieCounter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chick\\AppData\\Roaming\\NuGet\\NuGet.Config",
