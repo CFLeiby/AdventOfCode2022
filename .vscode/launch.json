@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/1.CalorieCounter/bin/Debug/net6.0/1.CalorieCounter.dll",
+            "program": "${workspaceFolder}/2.RockPaperScissor/bin/Debug/net6.0/2.RockPaperScissor.dll",
             "args": ["3"],
-            "cwd": "${workspaceFolder}/1.CalorieCounter",
+            "cwd": "${workspaceFolder}/2.RockPaperScissor",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
