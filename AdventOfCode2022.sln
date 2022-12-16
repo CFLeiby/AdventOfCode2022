@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.CalorieCounter", "1.Calor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.RockPaperScissor", "2.RockPaperScissor\2.RockPaperScissor.csproj", "{D425B18F-D794-4A9F-95B9-08B16C1C73ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Rucksacks", "3.Rucksacks\3.Rucksacks.csproj", "{06FF04F4-6D8B-406D-B1F6-4512D62697D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D425B18F-D794-4A9F-95B9-08B16C1C73ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D425B18F-D794-4A9F-95B9-08B16C1C73ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D425B18F-D794-4A9F-95B9-08B16C1C73ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
