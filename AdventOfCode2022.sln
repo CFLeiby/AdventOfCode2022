@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.RockPaperScissor", "2.Roc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Rucksacks", "3.Rucksacks\3.Rucksacks.csproj", "{06FF04F4-6D8B-406D-B1F6-4512D62697D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.CampCleanup", "4.CampCleanup\4.CampCleanup.csproj", "{DD82AFD5-EFC1-44BC-8529-0B8F803825AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06FF04F4-6D8B-406D-B1F6-4512D62697D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD82AFD5-EFC1-44BC-8529-0B8F803825AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD82AFD5-EFC1-44BC-8529-0B8F803825AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD82AFD5-EFC1-44BC-8529-0B8F803825AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD82AFD5-EFC1-44BC-8529-0B8F803825AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

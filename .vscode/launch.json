@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/3.Rucksacks/bin/Debug/net6.0/3.Rucksacks.dll",
+            "program": "${workspaceFolder}/4.CampCleanup/bin/Debug/net6.0/4.CampCleanup.dll",
             "args": ["3"],
-            "cwd": "${workspaceFolder}/3.Rucksacks",
+            "cwd": "${workspaceFolder}/4.CampCleanup",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
