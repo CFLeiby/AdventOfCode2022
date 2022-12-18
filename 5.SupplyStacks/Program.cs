@@ -8,18 +8,11 @@ internal class Program
     {
         var stacksAndMoves = File.ReadLines("Input.txt");
 
-        // if (args?.Length > 0)
-        // {
-        //     count = pairs.Where(p => VersionTwo(p.Split(','))).Count();
-        // }
-        // else
-        {
-            var tops = VersionOne(stacksAndMoves);
-            Console.WriteLine(tops);
-        }
+        var tops = MoveStacks(stacksAndMoves, (args?.Length??0) == 0);
+        Console.WriteLine(tops);
     }
 
-    static string VersionOne(IEnumerable<string> inputs)
+    static string MoveStacks(IEnumerable<string> inputs, bool oneByOne)
     {
         int breakPoint = 0;
         foreach(var line in inputs)
@@ -32,14 +25,9 @@ internal class Program
         var stacks = GetStacks(inputs.Take(breakPoint - 2));
         
         foreach(var move in inputs.Skip(breakPoint))
-            MakeMove(stacks, move);
+            MakeMove(stacks, move, oneByOne);
 
         return string.Join("", stacks.Select(s => s.Pop()));
-    }
-
-    static int VersionTwo(IEnumerable<string> inputs)
-    {
-        return 0;
     }
 
     static Stack<string>[] GetStacks(IEnumerable<string> inputs)
@@ -71,15 +59,25 @@ internal class Program
             }).ToArray();
     }
 
-    static void MakeMove(Stack<string>[] stacks, string move)
+    static void MakeMove(Stack<string>[] stacks, string move, bool oneByOne)
     {
         var moveDetails = move.Split(' ').ToArray();
         var amount = int.Parse(moveDetails[1]);
         var fromIndex = int.Parse(moveDetails[3]) - 1;
         var toIndex = int.Parse(moveDetails[5]) - 1;
-        for(int i = 0; i < amount; i++)
+        if (oneByOne)
         {
-            stacks[toIndex].Push(stacks[fromIndex].Pop());
+            for(int i = 0; i < amount; i++)
+                stacks[toIndex].Push(stacks[fromIndex].Pop());
         }    
+        else
+        {
+            var toMove = new string[amount];
+            for(int i = 0; i < amount; i++)
+                toMove[i] = stacks[fromIndex].Pop();
+
+            foreach(var carton in toMove.Reverse())
+                stacks[toIndex].Push(carton);
+        }
     }
 }
