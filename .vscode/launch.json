@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/6.Tuning/bin/Debug/net6.0/6.Tuning.dll",
+            "program": "${workspaceFolder}/7.NoSpace/bin/Debug/net6.0/7.NoSpace.dll",
             "args": ["3"],
-            "cwd": "${workspaceFolder}/6.Tuning",
+            "cwd": "${workspaceFolder}/7.NoSpace",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false,
