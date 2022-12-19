@@ -10,12 +10,12 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/5.SupplyStacks/bin/Debug/net6.0/5.SupplyStacks.dll",
+            "program": "${workspaceFolder}/6.Tuning/bin/Debug/net6.0/6.Tuning.dll",
             "args": ["3"],
-            "cwd": "${workspaceFolder}/5.SupplyStacks",
+            "cwd": "${workspaceFolder}/6.Tuning",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
         },
         {
             "name": ".NET Core Attach",
